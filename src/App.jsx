@@ -29,7 +29,6 @@ function App() {
 
   return (
     <div className='container'>
-
       {
         gameOver
           ?
@@ -37,18 +36,17 @@ function App() {
             {
               winner
                 ?
-                'Congratulations'
+                'Congratulations: '
                 :
-                'Game Over'
+                'Game Over: '
             }
-            :
             <span>
               {
                 winner
                   ?
                   winner
                   :
-                  'Draw'
+                  ' Draw'
               }
             </span>
             {winner && ' Wins'}
@@ -76,7 +74,6 @@ function App() {
           }
         </Button>
       </div>
-
     </div>
   )
 }

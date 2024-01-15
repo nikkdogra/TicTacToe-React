@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 body {
-    font-family: cursive;
+    font-family: 'Poppins', sans-serif;
 }
 
 .container {
@@ -12,6 +14,7 @@ body {
 .heading {
     color: #fff;
     text-align: center;
+    font-size: 2rem;
 }
 
 .heading span {
@@ -50,24 +53,21 @@ body {
     font-size: 1.5rem;
     padding: 0.5rem 2rem;
     border-radius: 50px;
-    background-color: #111;
+    background-color: #353434;
     border: none;
     outline: none;
     margin: 0 1rem;
     color: #04f956;
 }
+
 @media (max-width: 600px){
-    html{
-        font-size: 14px;
+    .container{
+        padding: 5%;
     }
-}
-@media (max-width: 460px){
-    html{
-        font-size: 12px;
+    .board{
+        margin: 4rem 0;
     }
-}
-@media (max-width: 330px){
-    html{
-        font-size: 8px;
+    .heading{
+        font-size: 3rem;
     }
 }
