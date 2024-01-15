@@ -8,7 +8,7 @@ body {
     background-color: #000;
     width: 100%;
     height: 100svh;
-    padding: 1% 0;
+    padding: 2% 0;
 }
 
 .heading {
@@ -22,7 +22,7 @@ body {
 }
 
 .board {
-    margin: 2rem auto;
+    margin: 3% auto;
 }
 
 .row {
@@ -31,8 +31,8 @@ body {
 }
 
 .square {
-    width: 9rem;
-    height: 9rem;
+    width: 10rem;
+    height: 8rem;
     font-size: 5rem;
     font-weight: 100;
     color: #fff;
@@ -45,7 +45,7 @@ body {
 }
 
 .btn-container {
-   text-align: center;
+    text-align: center;
 }
 
 .btn {
@@ -60,14 +60,31 @@ body {
     color: #04f956;
 }
 
-@media (max-width: 600px){
-    .container{
-        padding: 5%;
+@media (max-width: 800px) {
+    .board {
+        margin: 10% 0;
     }
-    .board{
-        margin: 4rem 0;
+}
+
+@media (max-width: 550px) {
+    .container {
+        padding: 7% 0;
     }
-    .heading{
-        font-size: 3rem;
+
+    .board {
+        margin: 15% 0;
+    }
+
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 12px;
+    }
+    .board {
+        margin: 20% 0;
     }
 }
